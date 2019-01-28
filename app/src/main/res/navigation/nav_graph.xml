@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_gragh"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/departmentDetailsFragment">
 
     <fragment
         android:id="@+id/homeFragment"
@@ -12,9 +12,9 @@
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/departmentDetailsFragment"
-        android:name="com.abdelazim.x.aqardemo.view.DepartmentDetailsFragment"
+        android:name="com.abdelazim.x.aqardemo.view.appartmentDetailsFragment"
         android:label="fragment_department_details"
-        tools:layout="@layout/fragment_department_details" />
+        tools:layout="@layout/fragment_appartment_details" />
     <fragment
         android:id="@+id/contactUsFragment"
         android:name="com.abdelazim.x.aqardemo.view.ContactUsFragment"
