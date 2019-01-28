@@ -13,10 +13,10 @@ import com.abdelazim.x.aqardemo.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class DepartmentDetailsFragment extends Fragment {
+public class appartmentDetailsFragment extends Fragment {
 
 
-    public DepartmentDetailsFragment() {
+    public appartmentDetailsFragment() {
         // Required empty public constructor
     }
 
@@ -25,7 +25,7 @@ public class DepartmentDetailsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_department_details, container, false);
+        return inflater.inflate(R.layout.fragment_appartment_details, container, false);
     }
 
 }
