@@ -9,12 +9,16 @@
         android:id="@+id/homeFragment"
         android:name="com.abdelazim.x.aqardemo.view.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_departmentDetailsFragment"
+            app:destination="@id/departmentDetailsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/departmentDetailsFragment"
-        android:name="com.abdelazim.x.aqardemo.view.appartmentDetailsFragment"
+        android:name="com.abdelazim.x.aqardemo.view.ApartmentDetailsFragment"
         android:label="fragment_department_details"
-        tools:layout="@layout/fragment_appartment_details" />
+        tools:layout="@layout/fragment_apartment_details" />
     <fragment
         android:id="@+id/contactUsFragment"
         android:name="com.abdelazim.x.aqardemo.view.ContactUsFragment"
