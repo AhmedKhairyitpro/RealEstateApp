@@ -1,5 +1,25 @@
 <resources>
     <string name="app_name">RealEstate</string>
 
+    <string-array name="details">
+
+        <item>
+            عدد الغرف 3
+        </item>
+        <item>
+            عدد الطوابق 2
+        </item>
+        <item>
+            عدد الحمامات 2
+        </item>
+        <item>
+            نوع التشطيب  سوبر لوكس
+        </item>
+        <item>
+            الوصف
+            \nعدد الغرف 2.وعدد الطوابق 2.وعدد الحمامات 2.والريسيبشن 2 قطعة .ونوع التشطيب سوبر لوكس
+        </item>
+    </string-array>
+
 
 </resources>
